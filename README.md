@@ -1,9 +1,9 @@
 # codeigniter-vscode-snippets
-##CodeIgniter Visual Studio Code Snippets
+## CodeIgniter Visual Studio Code Snippets
 
-###List of avaiable shortcuts
+### List of avaiable shortcuts
 
-####Query Builder Class
+#### Query Builder Class
 
 * db_insert
 * db_replace
@@ -26,7 +26,7 @@
 * db_group_start
 * db_group_end
 
-####Query Helper Methods
+#### Query Helper Methods
 
 * db_affected_rows
 * db_insert_id
