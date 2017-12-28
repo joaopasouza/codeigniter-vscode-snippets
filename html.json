@@ -31,6 +31,30 @@
 		],
 		"description": "CodeIgniter Controller"
 	},
+	"CodeIgniter Library": {
+		"prefix": "library",
+		"body": [
+			"<?php",
+			"defined('BASEPATH') OR exit('No direct script access allowed');",
+			"",
+			"class ${TM_FILENAME/(.*)\\..+$/$1/} {",
+			"",
+			"\tprotected \\$CI;",
+			"",
+			"\tpublic function __construct() {",
+			"\t\t\\$this->CI =& get_instance();",
+			"\t}",
+			"",
+			"\t${0:# code...}",
+			"",
+			"}",
+			"",
+			"/* End of file: $TM_FILENAME */",
+			"/* Location: $TM_FILEPATH */",
+			""
+		],
+		"description": "CodeIgniter Model"
+	},
 	"CodeIgniter Model": {
 		"prefix": "model",
 		"body": [
