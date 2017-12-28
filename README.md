@@ -1,5 +1,4 @@
-# codeigniter-vscode-snippets
-## CodeIgniter Visual Studio Code Snippets
+# CodeIgniter Visual Studio Code Snippets
 
 ### List of avaiable shortcuts
 
