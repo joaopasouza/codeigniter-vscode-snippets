@@ -103,3 +103,9 @@
 * sess_set_flashdata
 * sess_tempdata
 * sess_set_tempdata
+
+#### MISC
+
+* controller
+* library
+* model
