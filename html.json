@@ -26,10 +26,28 @@
 			"}",
 			"",
 			"/* End of file: $TM_FILENAME */",
-			"/* Location: $TM_FILEPATH */",
 			""
 		],
 		"description": "CodeIgniter Controller"
+	},
+	"CodeIgniter Helper": {
+		"prefix": "helper",
+		"body": [
+			"<?php",
+			"defined('BASEPATH') OR exit('No direct script access allowed');",
+			"",
+			"if ( ! function_exists('${1:foo}'))",
+			"{",
+			"\tfunction $1(${4:\\$${2:var} = '$3'})",
+			"\t{",
+			"\t\t${0:# code...}",
+			"\t}",
+			"}",
+			"",
+			"/* End of file: $TM_FILENAME */",
+			""
+		],
+		"description": "CodeIgniter Helper"
 	},
 	"CodeIgniter Library": {
 		"prefix": "library",
@@ -50,7 +68,6 @@
 			"}",
 			"",
 			"/* End of file: $TM_FILENAME */",
-			"/* Location: $TM_FILEPATH */",
 			""
 		],
 		"description": "CodeIgniter Model"
@@ -74,7 +91,6 @@
 			"}",
 			"",
 			"/* End of file: $TM_FILENAME */",
-			"/* Location: $TM_FILEPATH */",
 			""
 		],
 		"description": "CodeIgniter Model"
