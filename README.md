@@ -104,8 +104,34 @@
 * sess_tempdata
 * sess_set_tempdata
 
+#### URL Helper
+
+* base_url
+* site_url
+* current_url
+* uri_string
+* anchor
+* mailto
+* url_title
+* prep_url
+* redirect
+
+#### URI Class
+
+* segment
+
+#### File Upload Class
+
+* upload
+
+#### Email Class
+
+* send_email
+
 #### MISC
 
 * controller
+* helper
 * library
 * model
+* get_instance
